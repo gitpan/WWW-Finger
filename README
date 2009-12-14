@@ -2,7 +2,7 @@ NAME
     WWW::Finger - Get useful data from e-mail addresses
 
 VERSION
-    0.01
+    0.02
 
 SYNOPSIS
       use WWW::Finger;

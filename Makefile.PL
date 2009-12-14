@@ -26,11 +26,12 @@ requires            'XML::LibXML'        => 1.60;
 requires            'XRD::Parser'        => 0.03;
 requires            'URI'                => 1.30;
 
+include 'Test::Signature';
 auto_install;
-
-sign;
-
-WriteAll;
+WriteAll(
+	'meta' => 1,
+	'sign' => 1,
+	);
 
 use Pod::Text;
 my $parser = Pod::Text->new (sentence => 0, width => 78);
