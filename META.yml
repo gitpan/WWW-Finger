@@ -33,5 +33,7 @@ requires:
   XRD::Parser: 0.03
   perl: 5.8.1
 resources:
+  bugtracker: http://search.cpan.org/dist/WWW-Finger/
+  homepage: http://search.cpan.org/dist/WWW-Finger/
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
