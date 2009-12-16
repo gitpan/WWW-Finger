@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 c915cb805b61aa1022ffe7a6d17786c07b2ea711 Changes
+SHA1 f635fc281036f97b533e2629fef36b104188ba2b Changes
 SHA1 412d13327ac04e9a9585a433aff3ae1757086a7d MANIFEST
 SHA1 29068ccf9327104f9372114ad2a96f108eb8699c MANIFEST.SKIP
-SHA1 1b6f8d46ace6a4f8d4b131617e0cdde704feacbc META.yml
-SHA1 123b77a0ca79927ee77e966fc46ab0183a0938f4 Makefile.PL
-SHA1 bfc07a6dd58d91a84cccd5c862aaeb1f6c95ddb9 README
+SHA1 1d3b8849a8bd4ac9b4b43e5d87c0ed8e4d159c8b META.yml
+SHA1 1ed23a8a3d1f315dbf9115686c81d28a1d95a297 Makefile.PL
+SHA1 32e2768f136de089d78ae4f8b509b689a4102c6a README
 SHA1 e5fb92ac217988bfc7a6af739b0459627020a27e inc/Module/AutoInstall.pm
 SHA1 fd5f3c4f0418efee3b9b16cf8c3902e8374909df inc/Module/Install.pm
 SHA1 5c529e96420d964b192f011b121283a4916f7331 inc/Module/Install/AutoInstall.pm
@@ -36,17 +36,17 @@ SHA1 3406c9015148c75406903e7382f8182613b5022a inc/Module/Install/Scripts.pm
 SHA1 f7ee667e878bd2faf22ee9358a7b5a2cc8e91ba4 inc/Module/Install/Win32.pm
 SHA1 8ed29d6cf217e0977469575d788599cbfb53a5ca inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 7fd25271adc96540ac0c7f245dc510f32fbd6595 lib/WWW/Finger.pm
-SHA1 2bfd59c1cdea8cb5e103a05528ec7ee4eb86f3c9 lib/WWW/Finger/CPAN.pm
-SHA1 65e1ee350cb6f70e0bd68bec0de999dab3bcbb39 lib/WWW/Finger/Fingerpoint.pm
-SHA1 704a5890167d956bcdca033764189bcde876bf4c lib/WWW/Finger/Webfinger.pm
+SHA1 024440b726f89722cc882a23ed3c516774d2cf99 lib/WWW/Finger.pm
+SHA1 57813a59b0b775c9e8cb428303fd2ce0e6fc6499 lib/WWW/Finger/CPAN.pm
+SHA1 365274dffdbb89bcdf4c964fdd8de9c827ede04f lib/WWW/Finger/Fingerpoint.pm
+SHA1 8e4d9e8ff0d9a53e370a29b33707681aa7c18db2 lib/WWW/Finger/Webfinger.pm
 SHA1 440f8416a99e7a493e7ed39cd8818eaa1da3291a script/fingerw
 SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
 SHA1 57c65c5eec7225491bff72c6137c9edc77dac8f2 t/WWW-Finger.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAksouKkACgkQzr+BKGoqfTkNcgCeIv5JVuqIdsPrjlcGI3X+49Yi
-tlcAn0EkUNSa2Viy+4fBgj0cntwXdLk9
-=5mI3
+iEYEARECAAYFAkso4t4ACgkQzr+BKGoqfTnHpwCgid9qQ5uUkTNPIPVp6x94EG8n
+knUAn3BGNbxhhpx5fezSsmVYJSuFKymW
+=9jCN
 -----END PGP SIGNATURE-----

@@ -27,7 +27,7 @@ requires            'RDF::Query'         => '2.200';
 requires            'RDF::Query::Client' => '0.02';
 requires            'RDF::Trine'         => '0.112';
 requires            'XML::LibXML'        => '1.60';
-requires            'XRD::Parser'        => '0.03';
+requires            'XRD::Parser'        => '0.04';
 requires            'URI'                => '1.30';
 
 install_script 'fingerw';
