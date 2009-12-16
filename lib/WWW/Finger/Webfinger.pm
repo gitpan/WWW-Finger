@@ -13,7 +13,7 @@ use URI::Escape;
 use XRD::Parser 0.03;
 
 our @ISA = qw(WWW::Finger);
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 BEGIN
 {
@@ -26,7 +26,7 @@ sub new
 	my $ident = shift or croak "Need to supply an account address\n";
 	my $self  = bless {}, $class;
 
-	$ident = "acct://$ident"
+	$ident = "acct:$ident"
 		unless $ident =~ /^[a-z0-9\.\-\+]+:/i;
 	$ident = URI->new($ident);
 	return undef
@@ -213,7 +213,7 @@ WWW::Finger::Webfinger - WWW::Finger module for Webfinger
 
 =head1 VERSION
 
-0.03
+0.04
 
 =head1 DESCRIPTION
 
@@ -263,6 +263,8 @@ description:
 =item * http://xmlns.com/foaf/0.1/img
 
 =item * http://xmlns.com/foaf/0.1/depiction
+
+=item * http://ontologi.es/sparql#endpoint
 
 =back
 
