@@ -1,6 +1,7 @@
 package WWW::Finger::Webfinger;
 
-use 5.008001;
+use 5.008;
+use base qw(WWW::Finger::_GenericRDF);
 use strict;
 
 use Carp;
@@ -12,8 +13,7 @@ use URI;
 use URI::Escape;
 use XRD::Parser 0.04;
 
-our @ISA = qw(WWW::Finger::_GenericRDF);
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 BEGIN
 {
@@ -33,18 +33,20 @@ sub new
 		unless $ident->scheme =~ /^(mailto|acct|xmpp)$/;
 
 	$self->{'ident'} = $ident;
-	my ($user, $host) = split /\@/, $ident->authority;
+	my ($user, $host) = split /\@/, $ident->authority
+		if defined $ident && defined $ident->authority;
 	if ("$ident" =~ /^(acct|mailto)\:([^\s\@]+)\@([a-z0-9\-\.]+)$/i)
 	{
 		$user = $2;
 		$host = $3;
 	}
-	
+
 	eval {
 		my $xrd_parser = XRD::Parser->hostmeta($host);
 		$xrd_parser->consume;
 		$self->{'hostmeta'} = $xrd_parser->graph;
 	};
+
 	return undef unless defined $self->{'hostmeta'};
 	
 	my @descriptors;
@@ -170,10 +172,6 @@ __END__
 
 WWW::Finger::Webfinger - WWW::Finger module for Webfinger
 
-=head1 VERSION
-
-0.08
-
 =head1 DESCRIPTION
 
 Webfinger is currently a very unstable specification, with implementation details
@@ -242,7 +240,7 @@ Toby Inkster, E<lt>tobyink@cpan.orgE<gt>
 Copyright (C) 2009-2010 by Toby Inkster
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.1 or,
+it under the same terms as Perl itself, either Perl version 5.8 or,
 at your option, any later version of Perl 5 you may have available.
 
 
