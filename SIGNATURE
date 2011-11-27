@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.63.
+signed via the Module::Signature module, version 0.66.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,42 +14,48 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 153995884c51a7d49da595ea2913f6f0e51bc4cb Changes
-SHA1 61e97daecbedf44540a871e7ed8e881502a05010 Changes.ttl
-SHA1 724eab962a1ea10d9e729e4882aa13cf12457b9a Changes.xml
-SHA1 fad620d1d2474e811a16876518d4084e148a9ccf MANIFEST
-SHA1 d83a1f99ad0d8b51a20672b77672720561668d14 MANIFEST.SKIP
-SHA1 2518d238a1f8dd6665fd6cbc64dbe1c170c3b61a META.yml
-SHA1 f5c2d7eb5f713a9853eb8f4793facde69674c92e Makefile.PL
-SHA1 d2ce036a379b43dc7b0a083bb41e33550e0a16b1 README
-SHA1 8842ca38ce27ccf75e1ce8f5dfb93fa62d933b2e inc/Module/AutoInstall.pm
-SHA1 1ebec4119486a032a5612a403e8d7b7be973e938 inc/Module/Install.pm
-SHA1 bec3c7f9af6e1a3cb4d143249956c98af30f0552 inc/Module/Install/AutoInstall.pm
-SHA1 24038af925a69df41972971356ccce885b0fe2ad inc/Module/Install/Base.pm
-SHA1 8f96eddfef548c9328457fbb17a121631cda356b inc/Module/Install/Can.pm
-SHA1 de189984fc99741cc060d1964f513e45bf6d5c74 inc/Module/Install/DOAPChangeSets.pm
-SHA1 ec29048e48edd9c9c55f9de7b773bd7c904335ad inc/Module/Install/Fetch.pm
-SHA1 01862227830d2547f38275eaee0eb9f5add5a252 inc/Module/Install/Include.pm
-SHA1 0384525d85d51e99532e3ad8729d870113646d14 inc/Module/Install/Makefile.pm
-SHA1 38c657de4d91f5a60ff8e6c6f6a5547daf7c4ab2 inc/Module/Install/Metadata.pm
-SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.pm
-SHA1 f74fc88b2820caf7c3e50a1108b377aa4abdb275 inc/Module/Install/Scripts.pm
-SHA1 5c25f1104c0038041e3b93e0660c39171e4caf2b inc/Module/Install/Win32.pm
-SHA1 94d47349c803c4bd2a9230d25e4db0b6aaf1acd8 inc/Module/Install/WriteAll.pm
-SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 7d864515ae91b5210b82e3f528c4ed4263c87102 lib/WWW/Finger.pm
-SHA1 154a28760a319046f7ccd0063c489875a6b51386 lib/WWW/Finger/BitworkingFingerProtocol.pm
-SHA1 db82554d45e8cd7487e55a490216df3e70e43350 lib/WWW/Finger/CPAN.pm
-SHA1 f49545a036241c34c379791c812788564f26f860 lib/WWW/Finger/Fingerpoint.pm
-SHA1 97a5f1c540f0ed66719e29a7e9cd9bbc684d9593 lib/WWW/Finger/Webfinger.pm
-SHA1 cc07e255a935a1feaa9229a261d4ae4d5a41b2db lib/WWW/Finger/_GenericRDF.pm
-SHA1 4953140b0f8ae4a6a1154c037c0110164f26f4f5 script/fingerw
-SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
+SHA1 997920c6a28b60103f27ea8f63606718214f2993 Changes
+SHA1 f3296a09eb07898f3ba6dd0ece615dafc1b57e16 LICENSE
+SHA1 4b8aa44de7ae662e6e3d953e94c07de8013a151d MANIFEST
+SHA1 3a42ca712a159070801849d33d8b73dca414f4fd META.yml
+SHA1 5391cc35db658809505db2be59d47aa2f073c376 Makefile.PL
+SHA1 139b5cf5fbeeca5f23aba0361663031808da91a4 README
+SHA1 e9a590c244820b8ebdb909f16f57a6e22e293951 bin/fingerw
+SHA1 5d94bc10deff1dd74e4bc5dfa6fc015e39271f15 inc/Module/AutoInstall.pm
+SHA1 40106479d4e07f379cb82ca1d69fca92e3a40f47 inc/Module/Install.pm
+SHA1 34a24a530ecf0365cc02e4150b06c9bed702a441 inc/Module/Install/AutoInstall.pm
+SHA1 c04f94f91fa97b9f8cfb5a36071098ab0e6c78e3 inc/Module/Install/AutoManifest.pm
+SHA1 ae8aa01a73cb83da31c39e8eed1120c59cb530a1 inc/Module/Install/Base.pm
+SHA1 5c87d2d0e2c08b5173259006c88ad81c24303f9d inc/Module/Install/Can.pm
+SHA1 98daf9d8c50b4b7e8988cf1fa2b86044ad219533 inc/Module/Install/Fetch.pm
+SHA1 f3e008113f7f49b0625083b6cc358a312854f613 inc/Module/Install/Include.pm
+SHA1 e67589fcbacdda6c98ff34d8e26a004ab0467bdc inc/Module/Install/Makefile.pm
+SHA1 209ea405d4ab94475661bb450d0ea042d2ec25b5 inc/Module/Install/Metadata.pm
+SHA1 3b9281ddf7dd6d6f5de0a9642c69333023193c80 inc/Module/Install/Package.pm
+SHA1 87011c8a6c6fd2070ddf05c1b9a6c2eb9e074a34 inc/Module/Install/Scripts.pm
+SHA1 b86d0385e10881db680d28bde94f275e49e34a27 inc/Module/Install/TrustMetaYml.pm
+SHA1 1326052d1df1065debee74f9d8583a734b9b3d00 inc/Module/Install/Win32.pm
+SHA1 bb607f3715c40fc3bc1c46496587cdb215bc4fa2 inc/Module/Install/WriteAll.pm
+SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
+SHA1 ef4c751e6da2367fbf9d0ef365c27d50d6ed3bf9 inc/Module/Package/Dist/RDF.pm
+SHA1 775bd24f2fdbb6dce51a8b5b0cdb01fccfce83c4 inc/Scalar/Util.pm
+SHA1 b1b664983568bf822c327599eb88e223483ae96a inc/Scalar/Util/PP.pm
+SHA1 eef6bff62046bff2ce08ba132d0b58fba30f40b4 inc/YAML/Tiny.pm
+SHA1 b526160f58a03562738f361878a6e65e3d79796a inc/parent.pm
+SHA1 5c441e565c9b04c95b4ad87f3590843b23980e83 lib/WWW/Finger.pm
+SHA1 dfa02ae2b068fc5b227bbbf86048007fe680e1fc lib/WWW/Finger/BitworkingFingerProtocol.pm
+SHA1 aff040fc3865a09d5db4c165090cd8d75eb615f0 lib/WWW/Finger/CPAN.pm
+SHA1 65ae87388c6944039bf8f624f0d85d5379a90f04 lib/WWW/Finger/Fingerpoint.pm
+SHA1 5dc05d2bb791a70efc3ff8361650254dbf54ab9f lib/WWW/Finger/Webfinger.pm
+SHA1 318875cfacf669843d09c9a8786959a933851e49 lib/WWW/Finger/_GenericRDF.pm
+SHA1 828a76d248c45af3ed5dab0af58405062d159a44 meta/changes.ttl
+SHA1 71217542de327e528f63a1ec2ff91a3f20957858 meta/doap.ttl
+SHA1 4c3ba7a3307c028a8497d5c135330af10e816ab4 meta/makefile.ttl
 SHA1 57c65c5eec7225491bff72c6137c9edc77dac8f2 t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkxUl3kACgkQzr+BKGoqfTkg9wCfUJJ7Qn2Yq8YYNtb5Nf1Aba29
-ulwAn3FEmpN4lOAeY3yQMlu9jOJuHj9i
-=d463
+iEYEARECAAYFAk7SvIMACgkQzr+BKGoqfTmpWQCgphxZXZCkxjZm+aBnlw1cUP3P
+AjQAn2QEk+DYwasPigUDCfiPPARffYrQ
+=45it
 -----END PGP SIGNATURE-----
