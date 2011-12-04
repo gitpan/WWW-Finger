@@ -149,9 +149,21 @@ my:v_0-102
 	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/WWW-Finger-0.102.tar.gz> ;
 	dcs:changeset [
 		dcs:versus :v_0-101 ;
-		dcs:item   [ rdfs:label "Rewrite of WWW::Finger::CPAN using MetaCPAN API."@en ] ;
+		dcs:item   [ rdfs:label "Rewrite of WWW::Finger::CPAN using MetaCPAN API."@en ; rdfs:seeAlso <https://metacpan.org/> ] ;
 		dcs:item   [ rdfs:label "use 5.010"@en ; a dcs:Update ] ;
 		dcs:item   [ rdfs:label "Module::Package::RDF"@en ; a dcs:Packaging ] ;
 		dcs:item   [ rdfs:label "Use Module::Pluggable instead of homebrew plugin system." ] ;
 		dcs:item   [ rdfs:label "Cleanup." ]
+	] .
+
+my:project :release my:v_0-103 .
+my:v_0-103
+	a               :Version ;
+	dc:issued       "2011-12-04"^^xsd:date ;
+	:revision       "0.103"^^xsd:string ;
+	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/WWW-Finger-0.103.tar.gz> ;
+	dcs:changeset [
+		dcs:versus :v_0-102 ;
+		dcs:item   [ rdfs:label "Replace UNIVERSAL::AUTHORITY with Object::AUTHORITY." ] ;
+		dcs:item   [ rdfs:label "Newer version of Module::Package::RDF."@en ; a dcs:Packaging, dcs:Bugfix ]
 	] .

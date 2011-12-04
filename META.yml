@@ -31,6 +31,7 @@ requires:
   LWP::Simple: 0
   LWP::UserAgent: 0
   Module::Pluggable: 0
+  Object::AUTHORITY: 0
   RDF::Query: 2.900
   RDF::Query::Client: 0.106
   RDF::Trine: 0.135
@@ -47,4 +48,4 @@ resources:
   homepage: https://metacpan.org/release/WWW-Finger
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-www-finger
-version: 0.102
+version: 0.103

@@ -4,7 +4,7 @@ use 5.010;
 use common::sense;
 use utf8;
 
-use UNIVERSAL::AUTHORITY 0;
+use Object::AUTHORITY 0;
 use Carp 0;
 
 use namespace::clean;
@@ -19,7 +19,7 @@ use Module::Pluggable
 
 BEGIN {
 	$WWW::Finger::AUTHORITY = 'cpan:TOBYINK';
-	$WWW::Finger::VERSION   = '0.102';
+	$WWW::Finger::VERSION   = '0.103';
 }
 
 sub new

@@ -6,6 +6,11 @@ Home page:    <https://metacpan.org/release/WWW-Finger>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=WWW-Finger>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.103  2011-12-04
+
+ - Replace UNIVERSAL::AUTHORITY with Object::AUTHORITY.
+ - (Bugfix Packaging) Newer version of Module::Package::RDF.
+
 0.102  2011-11-27
 
  - Cleanup.
@@ -49,8 +54,8 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.03  2009-12-15
 
- - (Bugfix) Fixed package signature.
  - (Addition) WWW::Finger::Webfinger now provides an ->endpoint method.
+ - (Bugfix) Fixed package signature.
 
 0.02  2009-12-14
 
@@ -69,13 +74,13 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
  - Refactor some code from WWW::Finger::Webfinger to allow it to be used
    elsewhere.
- - (Addition) Support semantics of foaf:account and foaf:holdsAccount.
- - (Addition) Allow fingerw command-line client to load additional modules.
- - (Update) Improve fingerw's debugging (verbose) messages.
  - (Update) Use Turtle for Changes file.
- - (Bugfix) Fix duplicated mbox in WWW::Finger::CPAN.
  - (Addition) Support Joe Gregorio's alternative to current Webfinger
    protocol.
+ - (Addition) Support semantics of foaf:account and foaf:holdsAccount.
+ - (Bugfix) Fix duplicated mbox in WWW::Finger::CPAN.
+ - (Addition) Allow fingerw command-line client to load additional modules.
+ - (Update) Improve fingerw's debugging (verbose) messages.
  - (Addition) Follow rdf:seeAlso and ianalink:describedby links found in
    Webfinger account profiles.
 

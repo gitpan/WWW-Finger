@@ -17,7 +17,7 @@ use parent qw(WWW::Finger::_GenericRDF);
 
 BEGIN {
 	$WWW::Finger::Webfinger::AUTHORITY = 'cpan:TOBYINK';
-	$WWW::Finger::Webfinger::VERSION   = '0.102';
+	$WWW::Finger::Webfinger::VERSION   = '0.103';
 }
 
 sub speed { 100 }
