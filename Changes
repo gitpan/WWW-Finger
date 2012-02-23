@@ -6,18 +6,26 @@ Home page:    <https://metacpan.org/release/WWW-Finger>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=WWW-Finger>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.104  2012-02-23
+
+ - (Bugfix Packaging) Replace UNIVERSAL::AUTHORITY with Object::AUTHORITY
+   in META.yml too.
+   ++"Florian Schlichting"
+ - (Update) s/Digest::SHA1/Digest::SHA/
+   ++"Florian Schlichting"
+
 0.103  2011-12-04
 
- - Replace UNIVERSAL::AUTHORITY with Object::AUTHORITY.
  - (Bugfix Packaging) Newer version of Module::Package::RDF.
+ - Replace UNIVERSAL::AUTHORITY with Object::AUTHORITY.
 
 0.102  2011-11-27
 
+ - (Packaging) Module::Package::RDF
+ - (Update) use 5.010
  - Cleanup.
  - Rewrite of WWW::Finger::CPAN using MetaCPAN API.
  - Use Module::Pluggable instead of homebrew plugin system.
- - (Update) use 5.010
- - (Packaging) Module::Package::RDF
 
 0.101  2010-07-31
 
@@ -32,9 +40,9 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.09  2010-04-26
 
- - Various cleanups.
  - (Update) Switch Changes file from Aaron Cope's changefile vocab to my
    own DOAP Change Sets vocab.
+ - Various cleanups.
 
 0.08  2010-01-06
 
@@ -47,10 +55,10 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.04  2009-12-16
 
- - Change default scheme for Webfinger from 'acct://' to 'acct:'.
  - (Addition) Bundle a command-line query tool.
- - (Bugfix) Unimplemented methods return empty arrays properly.
  - (Bugfix) Fingerpoint bugfix in ->graph().
+ - (Bugfix) Unimplemented methods return empty arrays properly.
+ - Change default scheme for Webfinger from 'acct://' to 'acct:'.
 
 0.03  2009-12-15
 
@@ -61,26 +69,25 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
  - (Bugfix) Fixed problems with build.
 
-0.01  2009-12-14
-# Initial release
+0.01  2009-12-14  # Initial release
 
 
 0.07  2009-01-06
 
- - (Update) Update copyright noticed to 2010.
  - (Bugfix) Include BitworkingFingerProtocol.pm in MANIFEST.
+ - (Update) Update copyright noticed to 2010.
 
 0.06  2009-01-06
 
- - Refactor some code from WWW::Finger::Webfinger to allow it to be used
-   elsewhere.
- - (Update) Use Turtle for Changes file.
+ - (Addition) Allow fingerw command-line client to load additional modules.
+ - (Addition) Follow rdf:seeAlso and ianalink:describedby links found in
+   Webfinger account profiles.
  - (Addition) Support Joe Gregorio's alternative to current Webfinger
    protocol.
  - (Addition) Support semantics of foaf:account and foaf:holdsAccount.
  - (Bugfix) Fix duplicated mbox in WWW::Finger::CPAN.
- - (Addition) Allow fingerw command-line client to load additional modules.
  - (Update) Improve fingerw's debugging (verbose) messages.
- - (Addition) Follow rdf:seeAlso and ianalink:describedby links found in
-   Webfinger account profiles.
+ - (Update) Use Turtle for Changes file.
+ - Refactor some code from WWW::Finger::Webfinger to allow it to be used
+   elsewhere.
 

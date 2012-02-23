@@ -19,7 +19,7 @@ use Module::Pluggable
 
 BEGIN {
 	$WWW::Finger::AUTHORITY = 'cpan:TOBYINK';
-	$WWW::Finger::VERSION   = '0.103';
+	$WWW::Finger::VERSION   = '0.104';
 }
 
 sub new
@@ -168,7 +168,7 @@ Toby Inkster, E<lt>tobyink@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENCE
 
-Copyright (C) 2009-2011 by Toby Inkster
+Copyright (C) 2009-2012 by Toby Inkster
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
