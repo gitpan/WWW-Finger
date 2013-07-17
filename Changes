@@ -6,12 +6,20 @@ Home page:    <https://metacpan.org/release/WWW-Finger>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=WWW-Finger>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.105  2013-07-17
+
+ - (Bugfix Packaging) Stop bundling prehistoric version of Scalar::Util in
+   'inc'.
+   Fixes RT#86567
+
 0.104  2012-02-23
 
  - (Bugfix Packaging) Replace UNIVERSAL::AUTHORITY with Object::AUTHORITY
    in META.yml too.
+   Fixes RT#75122
    ++"Florian Schlichting"
- - (Update) s/Digest::SHA1/Digest::SHA/
+ - (Bugfix Update) s/Digest::SHA1/Digest::SHA/
+   Fixes RT#75123
    ++"Florian Schlichting"
 
 0.103  2011-12-04
